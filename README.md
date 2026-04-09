@@ -1,5 +1,4 @@
-# Trading-Journal-
-<!DOCTYPE html>
+# Trading-Journal- <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
