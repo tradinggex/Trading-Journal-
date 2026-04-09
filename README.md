@@ -426,8 +426,14 @@
             <button class="btn btn-ghost" style="padding:6px 12px" onclick="changeMonth(1)">→</button>
           </div>
           <div style="display:flex;gap:12px;font-size:12px;">
-            <span>🟢 Win</span><span>🔴 Loss</span><span>🟠 BE</span>
-          </div>
+            {% if result == "win" %}
+✅ Win
+{% elsif result == "loss" %}
+❌ Loss
+{% elsif result == "be" %}
+➖ BE
+{% endif %}         
+        </div>
         </div>
         <div class="card">
           <div class="cal-header">
